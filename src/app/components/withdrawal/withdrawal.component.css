@@ -1,7 +1,7 @@
 
 .Card-registration{
 
-position: absolute;
+  position: absolute;
 width: 1300px;
 height: 60%;
 left: 303px;
@@ -20,6 +20,7 @@ box-shadow: 0 0 10px rgba(0,0,0,0.1 );
 }
 .cardtest{
   display: flex;
+
 }
 .dropdown-term{
   margin-left: 303px;
@@ -35,7 +36,8 @@ box-shadow: 0 0 10px rgba(0,0,0,0.1 );
     border-radius: 5px;
     cursor: pointer;
     transition: .5s;
-    background-color:rgb(4, 206, 138);
+    background-color:#FF4550;
+
 
 
 }
@@ -67,6 +69,11 @@ box-shadow: 0 0 10px rgba(0,0,0,0.1 );
   background: #fff;
   overflow:hidden;
 }
+
+.cover{
+  width: 100%;
+}
+
 .content{
 position: absolute;
 bottom: 0;

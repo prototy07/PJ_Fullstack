@@ -2,7 +2,7 @@
   <div class="container1">
   <div class="container2">
     <div class="textrgt">
-      <h1>Registration</h1>
+      <h1>Withdrawal</h1>
     </div>
     <div class="dropdown-term">
       <p-dropdown [options]="Termlist" optionLabel="name"></p-dropdown>
@@ -29,7 +29,7 @@
 
   <div class="cardtest">
     <div class="Card-registration">
-      <p-table [value]="Registrations">
+      <p-table [value]="Withdrawal">
         <ng-template pTemplate="header">
           <tr>
             <th>Subject</th>
@@ -38,20 +38,20 @@
             <th>Time</th>
             <th>Credit</th>
             <th>Room</th>
-            <th>Select</th>
+            <th>Withdraw</th>
           </tr>
         </ng-template>
-        <ng-template pTemplate="body" let-Registration>
+        <ng-template pTemplate="body" let-Withdrawal>
           <tr>
-            <td>{{ Registration.Subject }}</td>
-            <td>{{ Registration.ID }}</td>
-            <td>{{ Registration.Day }}</td>
-            <td>{{ Registration.Time }}</td>
-            <td>{{ Registration.Credit }}</td>
-            <td>{{ Registration.Room }}</td>
+            <td>{{ Withdrawal.Subject }}</td>
+            <td>{{ Withdrawal.ID }}</td>
+            <td>{{ Withdrawal.Day }}</td>
+            <td>{{ Withdrawal.Time }}</td>
+            <td>{{ Withdrawal.Credit }}</td>
+            <td>{{ Withdrawal.Room }}</td>
             <td>
               <button type="submit" class="btn-select">
-                {{ Registration.Select }}
+                {{ Withdrawal.Select }}
               </button>
             </td>
           </tr>
